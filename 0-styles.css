@@ -1,0 +1,244 @@
+@font-face {
+	font-family: "SourceSansPro-Regular";
+	src: url("/fonts/SourceSansPro-Regular.otf");
+}
+
+:root {
+	--font-family-normal: "SourceSansPro-Regular";
+	--text-color-white: #fff;
+	--text-color-hover: #FF6565;
+}
+
+/* to make website reponsive */
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: var(--font-family-normal);
+	position: relative;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	max-width: 1400px;
+	height: 800px;
+	flex-shrink: 0;
+	background-image: url(/images/headphones_hero_1.jpg);
+	background-repeat: no-repeat;
+	margin: 0; /* to avoid the text exceeds the frame */
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		background-position: center;
+	}
+}
+
+img {
+	display: block;
+}
+
+/* HEADER // NAVBAR */
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	max-width: 1400px;
+	margin-top: 27.76px;
+	color: var(--text-color-white);
+}
+
+	/* LOGO HEADER */
+	.logo_header img {
+		margin-left: 200.61px;
+		width: 161px;
+		height: 32px;
+		flex-shrink: 0;
+	}
+
+	/* HEADER LINKS */
+	.header_links {
+		display: flex;
+		margin-top: -10px;
+		margin-right: 199px;
+	}
+
+	.header_links a {
+		font-family: var(--font-family-bold)!important;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: bold;
+		line-height: normal;
+	}
+
+	.header_links a:hover {
+		color: var(--text-color-hover);
+		cursor: pointer;
+	}
+
+	.header_links p {
+		margin-right: 41px;
+	}
+
+	.header_links p:last-child {
+		margin-right: 0; /* remove margin-right on the last child */
+	}
+
+	/* HAMBURGER MENU */
+	.burger-icon {
+		display: none;
+		cursor: pointer;
+		padding: 1rem;
+		position: absolute;
+		user-select: none;
+	}
+
+	.burger-icon .navicon {
+		background-color: var(--text-color-white);
+		display: block;
+		width: .9rem;
+		height: .17rem;
+		position: relative;
+		transition: background .2s ease-out;
+	}
+
+	.burger-icon .navicon::before,
+	.burger-icon .navicon::after {
+		content: "";
+		display: block;
+		width: 150%;
+		height: 100%;
+		position: absolute;
+		background: var(--text-color-white);
+		transition: all .2s ease-out;
+	}
+
+	.burger-icon .navicon::before {
+		top: .5rem;
+	}
+
+	.burger-icon .navicon::after {
+		top: -.5rem;
+	}
+
+	/*burger menu */
+	.burger-btn {
+		display: none;
+	}
+
+	.burger-btn:checked ~ .header_links {
+		display: block;
+		max-height: 100%;
+		overflow: inherit;
+	}
+
+	.burger-btn:checked ~ .burger-icon .navicon {
+		background: transparent;
+	}
+
+	/* to make the cross */
+	.burger-btn:checked ~ .burger-icon .navicon::before {
+		transform: rotate(-45deg);
+	}
+
+	.burger-btn:checked ~ .burger-icon .navicon::after {
+		transform: rotate(45deg);
+	}
+
+	.burger-btn:checked ~ .burger-icon .navicon::after,
+	.burger-btn:checked ~ .burger-icon .navicon::before {
+		top: 0;
+	}
+
+	@media screen and (max-width: 480px){
+		.header_links {
+			display: none;
+			flex: 1;
+			margin-top: 25px;
+			margin-right: 50px;
+		}
+
+		.header_links p {
+			margin-top: 28px;
+		}
+
+		.logo_header img {
+			margin-left: 62%;
+			margin-right: auto;
+		}
+
+		.burger-icon {
+			display: block;
+		}
+	}
+
+
+/* MAIN */
+main {
+	display: flex;
+	flex-direction: column;
+
+}
+
+	/* BANNER */
+	#banner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		color: var(--text-color-white);
+	}
+
+	#banner_teaser {
+		font-size: 22px;
+		font-style: normal;
+		font-weight: 700;
+		margin-top: 270px;
+	}
+
+	#banner_teaser_sentence {
+		margin-top: -40px;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+	/* banner button */
+	.banner_btn {
+		margin-top: 24px;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		width: 162px;
+		height: 44px;
+		flex-shrink: 0;
+		border-radius: 22px;
+		background: var(--text-color-hover);
+		color: var(--text-color-white);
+		border: none;
+		box-shadow: rgb(35, 35, 35) 0px 0px 30px 0px;
+	}
+
+	.banner_btn:hover {
+		opacity: 0.9;
+		cursor: pointer;
+	}
+
+	.banner_btn:active {
+		transform: translate(0px, -10px);
+		transition: transform 500ms;
+	}
+
+	#banner_paragraph {
+		margin: 57px 381px 0px 382px;
+		line-height: 26px;
+		font-size: 16px;
+		font-weight: 400;
+		text-align: center;
+		
+
+	}
+
