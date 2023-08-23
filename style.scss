@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?sq4eq4');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?sq4eq4#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?sq4eq4') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?sq4eq4') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?sq4eq4##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?h6hcdy');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?h6hcdy#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?h6hcdy') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?h6hcdy') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?h6hcdy##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -15,7 +15,7 @@
 [class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '#{$icomoon-font-family}' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
