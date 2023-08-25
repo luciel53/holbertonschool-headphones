@@ -52,6 +52,7 @@ header {
 	color: var(--text-color-white);
 }
 
+
 	/* LOGO HEADER */
 	.logo_header img {
 		margin-left: 200.61px;
@@ -524,6 +525,7 @@ main {
 	margin-top: 100px;
 	margin-bottom: 330px;
 }
+
 .form_title h1 {
 	font-size: var(--title-size-h1);
 }
@@ -562,7 +564,7 @@ footer {
 	margin-top: 1850px;
 }
 
-footer .footer_container {
+footer .container {
 	margin-top: 91px;
 	display: flex;
 	flex-direction: row;
@@ -580,9 +582,13 @@ footer .logo_header img {
 	margin-left: 0px;
 }
 
-footer .footer_container .social_icons span {
+footer .container .social_icons span {
 	color: var(--text-color-white);
 	margin-right: 20px;
+}
+
+footer .container .social_icons a {
+	text-decoration: none;
 }
 
 footer .copyright {
