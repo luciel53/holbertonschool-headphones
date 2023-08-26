@@ -145,3 +145,8 @@ And you are done!
 
 + GitHub repository: `holbertonschool-headphones`
 + File: `4-index.html`, `4-styles.css`
+
+
+## Author:
+
+Lucie Leroty (l.leroty.pro@gmail.com)
