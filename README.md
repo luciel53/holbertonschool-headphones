@@ -154,4 +154,6 @@ And you are done!
 
 ## Author:
 
-Lucie Leroty ( :email: : l.leroty.pro@gmail.com , :link: : www.linkedin.com/in/lucie-leroty )
+Lucie Leroty, *student at Holberton School (Fullstack specialization)*
+:email: : l.leroty.pro@gmail.com
+:link: : www.linkedin.com/in/lucie-leroty
