@@ -155,5 +155,6 @@ And you are done!
 ## Author:
 
 Lucie Leroty, *student at Holberton School (Fullstack specialization)*
+
 :email: : l.leroty.pro@gmail.com
 :link: : www.linkedin.com/in/lucie-leroty
