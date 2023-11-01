@@ -149,4 +149,6 @@ And you are done!
 
 ## Author:
 
-Lucie Leroty (l.leroty.pro@gmail.com)
+Lucie Leroty ( :email: : l.leroty.pro@gmail.com , :link: : www.linkedin.com/in/lucie-leroty
+
+)
