@@ -147,6 +147,11 @@ And you are done!
 + File: `4-index.html`, `4-styles.css`
 
 
+## Installation
+
+`git clone https://github.com/luciel53/holbertonschool-headphones.git`
+
+
 ## Author:
 
 Lucie Leroty ( :email: : l.leroty.pro@gmail.com , :link: : www.linkedin.com/in/lucie-leroty
